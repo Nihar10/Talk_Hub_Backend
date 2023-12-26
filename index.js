@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://beamish-lebkuchen-cf4551.netlify.app/",
     credentials: true,
   },
 });
